@@ -14,6 +14,8 @@
 		8C32FA4A2101F9C10086B39E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C32FA482101F9C10086B39E /* LaunchScreen.storyboard */; };
 		8C32FA552101F9C10086B39E /* SoloLearnTODOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C32FA542101F9C10086B39E /* SoloLearnTODOTests.swift */; };
 		8C32FA602101F9C10086B39E /* SoloLearnTODOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C32FA5F2101F9C10086B39E /* SoloLearnTODOUITests.swift */; };
+		8C32FA6E2102086F0086B39E /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C32FA6D2102086F0086B39E /* ItemTableViewCell.swift */; };
+		8C32FA7021020A610086B39E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C32FA6F21020A610086B39E /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8C32FA5B2101F9C10086B39E /* SoloLearnTODOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoloLearnTODOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C32FA5F2101F9C10086B39E /* SoloLearnTODOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloLearnTODOUITests.swift; sourceTree = "<group>"; };
 		8C32FA612101F9C10086B39E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C32FA6D2102086F0086B39E /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		8C32FA6F21020A610086B39E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				8C32FA3F2101F9C00086B39E /* AppDelegate.swift */,
 				8C32FA412101F9C00086B39E /* ViewController.swift */,
 				8C32FA432101F9C00086B39E /* Main.storyboard */,
+				8C32FA6F21020A610086B39E /* Item.swift */,
+				8C32FA6D2102086F0086B39E /* ItemTableViewCell.swift */,
 				8C32FA462101F9C10086B39E /* Assets.xcassets */,
 				8C32FA482101F9C10086B39E /* LaunchScreen.storyboard */,
 				8C32FA4B2101F9C10086B39E /* Info.plist */,
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C32FA7021020A610086B39E /* Item.swift in Sources */,
 				8C32FA422101F9C00086B39E /* ViewController.swift in Sources */,
+				8C32FA6E2102086F0086B39E /* ItemTableViewCell.swift in Sources */,
 				8C32FA402101F9C00086B39E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,7 +444,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = aliaksandr.sololearn.com.SoloLearnTODO;
+				PRODUCT_BUNDLE_IDENTIFIER = aikhelis.SoloLearnTODO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -453,7 +461,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = aliaksandr.sololearn.com.SoloLearnTODO;
+				PRODUCT_BUNDLE_IDENTIFIER = aikhelis.SoloLearnTODO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
